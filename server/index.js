@@ -9,11 +9,14 @@ const passport = require("passport");
 const { session } = require("passport");
 require("./config/passport")(passport);
 const cors = require("cors");
+const PORT = process.env.PORT || 8080;
 
+// localDB: mongodb://127.0.0.1:27017/mernDB
+mongoose.set("strictQuery", false);
 mongoose
-  .connect("mongodb://127.0.0.1:27017/mernDB")
+  .connect(process.env.DATABASE)
   .then(() => {
-    console.log("Connecting to mongoDB...");
+    console.log("Connecting to mongoDB Atlas");
   })
   .catch((e) => {
     console.log(e);
