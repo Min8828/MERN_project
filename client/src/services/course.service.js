@@ -1,6 +1,6 @@
 import axios from "axios";
 // const API_URL = "http://localhost:8080/api/courses";
-const API_URL = "https://mern-app-backend-3lvp.onrender.com"; // backend
+const API_URL = "https://mern-app-backend-3lvp.onrender.com/api/courses"; // backend
 
 class CourseService {
   // instructor 建立新課程
