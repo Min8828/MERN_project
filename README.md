@@ -7,7 +7,8 @@ https://good-learning-platform.netlify.app/
 ## 特色
 * 採用 MERN Stack 技術 (MongoDB、Express.js、React 和 Node.js) 開發全端網站
 * JSON Web Token 驗證使用者並授予不同訪問權限
-* 運用 bcrypt 套件，使用 salt 和多輪加密運算來生成雜湊密碼，這樣即使相同的密碼也會產生不同的密文，增強了密碼的安全性。
+* 運用 bcrypt 套件，使用 salt 和多輪加密運算來生成雜湊密碼，這樣即使相同的密碼也會產生不同的密文，增強了密碼的安全性
+* 註冊、登入帳號功能
 
 ### 功能
 * 作為一名導師: 您可以製作在線課程、編輯課程資訊以及查該課堂學生人數
